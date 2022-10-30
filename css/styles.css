@@ -1,0 +1,163 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#content {
+    overflow: auto;
+}
+
+#nav,
+#feature,
+#footer {
+    margin: 1%;
+}
+
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.column3 {
+    margin-right: 0%;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav,
+#feature {
+    background-color: #efefef;
+    padding: 0.5em 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+#feature,
+.article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+
+.a1,
+.a2,
+.a3 {
+    padding: 5px;
+    color: rgb(6, 4, 0);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: whitesmoke;
+
+}
+
+.i1 {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+#nav {
+    padding: 8px;
+    background-image: url("w8.jpg");
+    background-position: center;
+}
+
+#feature {
+    color: white;
+    padding: 8px;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-image: url("w5.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.column1 {
+    color: white;
+    background-image: url("a3.jpg");
+    background-position: center left;
+    text-align: center;
+
+}
+
+.column2 {
+    color: white;
+    background-image: url("a14.jpg");
+    background-position: center;
+    text-align: center;
+}
+
+.column3 {
+    color: white;
+    background-image: url("a8.jpg");
+    background-position: center right;
+    text-align: center;
+}
+
+.column4 {
+    color: white;
+    background-image: url("a12.jpg");
+    background-position: center;
+    text-align: center;
+}
+
+.column5 {
+    color: white;
+    background-image: url("a13.jpg");
+    background-position: center;
+    text-align: center;
+}
+
+.column6 {
+    color: white;
+    background-image: url("a11.jpg");
+    background-position: center;
+    text-align: center;
+}
+
+.l1,
+.l2,
+.l3,
+.l4,
+.l5,
+.l6 {
+    color: white;
+    align-self: center;
+
+}
+
+a:link {
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+}
